@@ -5,18 +5,18 @@ import '../style/Message.css';
 const msgMap: Object = {
   init: {
     icon: 'music_note',
-    msg: 'Welcome back!'
+    msg: 'Bem Vindo(a)...'
   },
   loading: {
-    msg: 'Loading...'
+    msg: 'Procurando...'
   },
   noContent: {
     icon: 'info',
-    msg: 'No match'
+    msg: 'Não encontrei'
   },
   error: {
     icon: 'error',
-    msg: 'Error!'
+    msg: 'Tem algo errado!'
   }
 };
 

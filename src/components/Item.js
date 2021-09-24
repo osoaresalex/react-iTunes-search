@@ -18,7 +18,7 @@ const Item = (props: SearchResult) => (
         <span className="card-title activator grey-text text-darken-4">{props.trackName || props.collectionName}<i className="material-icons right">more_vert</i></span>
         <p>
           <a target="_blank" href={props.trackViewUrl || props.collectionViewUrl}>
-            more
+            Veja mais
           </a>
           {
             getKind(props.kind).length ?
@@ -29,8 +29,8 @@ const Item = (props: SearchResult) => (
         </p>
       </div>
       <div className="card-reveal">
-        <span className="card-title grey-text text-darken-4">{props.trackName || props.collectionName}<i className="material-icons right">close</i></span>
-        <p>{props.longDescription || props.description || 'No description.'}</p>
+        <span className="card-title grey-text text-darken-4">{props.trackName || props.collectionName}<i className="material-icons right">Fechar</i></span>
+        <p>{props.longDescription || props.description || 'API não retornou descrição.'}</p>
       </div>
     </div>
   </div>

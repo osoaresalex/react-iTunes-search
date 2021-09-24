@@ -1,20 +1,20 @@
 {
-  "name": "react-iTunes-search",
+  "name": "Objective-Marvel",
   "version": "2.2.2",
-  "description": "simple web app for iTunes Search implemented by React",
+  "description": "Aplicativo da web simples para busca heros marvel implementado por React feito por Alex ",
   "keywords": [
     "react",
-    "iTunes",
-    "search",
-    "apple",
-    "babel",
-    "ES6"
+    "marvel",
+    "busca",
+    "objective",
+    "front-end",
+    "desafio"
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:LeoAJ/react-facebook-friends.git"
+    "url": "alexsoares.site/objective.git"
   },
-  "author": "Leo Hsieh <leo0924@gmail.com> (http://leoj.js.org)",
+  "author": "Alex Soares Paes <jozehalex@gmail.com> (https://alexsoares.site)",
   "license": "MIT",
   "scripts": {
     "coverage": "jest --coverage",

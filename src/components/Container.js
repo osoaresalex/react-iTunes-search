@@ -31,7 +31,7 @@ class Container extends React.PureComponent<{}, ContainerState> {
   }
 
   componentWillUnmount() {
-    emitter.removeListener('search');
+    emitter.removeListener('Digite para pesquisar... ');
   }
 
   render() {

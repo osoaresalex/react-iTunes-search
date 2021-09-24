@@ -4,10 +4,10 @@ import '../style/Ribbon.css';
 const Ribbon = () => (
   <a
     target="_blank"
-    href="https://github.com/LeoAJ/react-iTunes-search"
+    href="https://github.com/osoaresalex/objective"
     className="github-corner"
     rel="noopener noreferrer"
-    aria-label="View source on Github"
+    aria-label="Ver fonte no Github "
   >
     <svg
       width="80"

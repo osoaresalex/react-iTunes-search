@@ -6,17 +6,17 @@
 }
 
 .github-corner:hover .octo-arm {
-  animation: octocat-wave 560ms ease-in-out;
+  animation: octocat-wave 1000ms ease-in-out;
 }
 
 .svg {
   z-index: 1000;
-  fill: #FD6C6C;
+  fill: #191B1E;
   color: #fff;
   position: absolute;
   top: 0;
   border: 0;
-  right: 0;
+  right: 10px;
 }
 
 .path {
